@@ -10,6 +10,12 @@
     background-color: skyblue;
 }
 
+#wrapper2{
+    width: 100%;
+    align-content: center;
+    background-color: skyblue;
+}
+
 .banner-image{
     background-image: url(banner.jpg);
     height: 45%;
@@ -17,6 +23,7 @@
     background-repeat: no-repeat;
     background-size: auto;
     clear:left;
+    float: none;
 }
 
 .banner-text{
@@ -24,7 +31,7 @@
     position: absolute;
     width:100% ;
     height: auto;
-    margin-top: 200px;
+    font-family: sans-serif;
 }
 
 .h1{
@@ -51,13 +58,13 @@
     color: skyblue;
 }
 
-#main-text{
-    float:right;
-    width: 33.33%;
-    clear: right;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
+article{
+display:block;
+float:right;
+padding: 2px;
+width:70%;
+font-family: sans-serif;
+
 }
 
 #twitter{
@@ -66,6 +73,59 @@
     clear:left;
     padding:5px;
     background-color: skyblue;
+}
+
+.slideshow{
+    float:left;
+    padding:5px;
+    background-color: skyblue;
+    display:block;
+}
+
+.Facts{
+    list-style: square;
+    background-color: skyblue;
+    float:right;
+    clear:right;
+    padding: 1px;
+    margin: 5px;
+}
+
+li {
+    float: left;
+    margin: 10px 30px 10px 0;
+    border-right-style: dotted;
+    padding-right : 15px;
+    }
+
+li:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+ol {
+    border: 1px solid #f00;
+    width:33%;
+
+}
+.Recording{
+    clear:both;
+    margin-top: auto;
+}
+
+#form1{
+    display:block;
+    float:right;
+    padding: 2px;
+    width:70%;
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+input{
+    width:50%;
+    height: 10%;
+    margin:8px 0;
+    box-sizing: border-box;
+    display:block;
 }
 
 @media only screen and (max-width: 1000px){
